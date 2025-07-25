@@ -1,0 +1,96 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  padding-top: 70px;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-blue {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+}
+
+.section-light {
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.fade-in,
+.slide-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+footer {
+  background-color: #212529;
+  color: #ccc;
+  padding: 20px 0;
+}
